@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Horror & Mystery</title>
+    <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/previews/027/599/850/non_2x/horror-minimalist-and-flat-logo-illustration-vector.jpg">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Creepster', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: red;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: white;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 500px;
+            height: 350px;
+            object-fit: cover;
+            border: 3px solid darkred;
+            transition: transform 0.3s, filter 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            filter: brightness(80%);
+        }
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery of Horror</h1>
+        <nav>
+            <ul>
+                <li><a href="project3.html">Home</a></li>
+                <li><a href="aboutpage.html">About</a></li>
+                <li><a href="Showcasepage.html">Gallery</a></li>
+                <li><a href="additionalpage.html">History</a></li>
+                <li><a href="ContactPage.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <p>Enter the gallery... if you dare. Behold eerie images from the shadows.</p>
+
+        <section class="gallery">
+            <img src="https://i.pinimg.com/736x/86/38/9d/86389dd45e39893a76debd86115574db.jpg"
+            alt="Haunted House">
+            <img src="https://www.mysteryandsuspense.com/wp-content/uploads/2022/08/small-town-horror.jpg"
+            alt="Creepy Forest">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq7wc50iu7J_SMpceji4TtObeoA_A5N7CPAw&s"
+            alt="Ghostly Figure">
+            <img src="https://i.pinimg.com/originals/66/d8/78/66d878840a25a80289a99653673c3736.jpg"
+            alt="Abandoned Asylum">
+            <img src="https://c.wallhere.com/photos/66/78/monochrome_blackandwhite_outdoor_cemetery_graveyard_blaydon_northeastengland_europe-972810.jpg!d"
+            alt="Foggy Graveyard">
+        </section>
+    </main>
+</body>
+</html>
